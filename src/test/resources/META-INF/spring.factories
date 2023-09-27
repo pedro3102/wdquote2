@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = com.wdquote.\
+    wdquote2.config.SqlTestContainersSpringContextCustomizerFactory
