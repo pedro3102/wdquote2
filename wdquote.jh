@@ -1,0 +1,196 @@
+entity ProductCategory { //Extrusions, Glass
+    name String required maxlength(50),
+    picture String
+}
+
+entity UnitOfMeasure{
+    name String required maxlength(50),
+    abbreviation String required maxlength(10),
+    allowsDecimal Boolean required //default(false)
+}
+
+entity UnitOfMeasureConversion{
+    conversionFactor BigDecimal required, //default(1) <column name="conversionFactor" type="DECIMAL(10, 2)">
+    //    UnitOfMeasureConversion{uom required} to UnitOfMeasure,
+    //    UnitOfMeasureConversion{uomEquivalent required} to UnitOfMeasure,
+}
+
+entity Product{
+    code String required unique maxlength(30),
+    description String required maxlength(255),
+//    Product{category required} to ProductCategory,
+//    Product{uom required} to UnitOfMeasure,
+    weight BigDecimal , //en libras, Precision(10,2), default(0)
+//    Product{uomWeight required} to UnitOfMeasure,
+//    Product{systemModel} to SystemModel{product}
+    picture String
+}
+
+entity Systema{//Door, Windows, etc
+    name String required maxlength(50),
+    picture String
+}
+
+entity SystemModel{
+    name String required maxlength(50)
+    description String required maxlength(255),
+//    SystemModel{system required} to System,
+    picture String
+}
+
+enum LocationType {
+    WAREHOUSE, WIP, ON_PAINT
+}
+
+entity Location {
+    code String required maxlength(5),
+    name String required maxlength(25),
+    address String maxlength(255),
+    isWarehouse Boolean required,//default(false)
+    locationType LocationType required
+}
+
+entity Inventory{
+//    Inventory{location required} to Location,
+//    Inventory{product required} to Product,
+    qty BigDecimal required,//Precision(15,5), default(0)
+    unitCost BigDecimal required,//Precision(15,5), default(0)
+    lastActivityDate LocalDate required,
+    shelf String maxlength(50),
+    reorderPoint BigDecimal,//Precision(15,5), default(0)
+
+}
+
+entity Vendor{
+    code String required maxlength(10),
+    name String required maxlength(50),
+    address String maxlength(255),
+}
+
+entity DeliveryZone{//Zona de Distribución
+    code String required maxlength(10),
+    name String required maxlength(50),
+}
+
+entity TaxAreaCode{
+    code String required maxlength(20),
+    name String required maxlength(50),
+}
+
+entity Language {
+    name String required maxlength(25),
+    code String required maxlength(3),
+}
+
+entity Customer{
+    code String required maxlength(10),
+    name String required maxlength(50),
+    address String maxlength(255),
+//    Customer{deliveryZone required} to DeliveryZone,
+//    Customer{taxAreaCode required} to TaxAreaCode,
+    taxLiable Boolean required,// default(true)
+    taxExemptionCode String maxlength(25),//Este campo se llena solo si taxLiable=false
+    paymentTerms String maxlength(25),//Preugntar si esto se toma de algún lugar o si es solo un texto
+    creditLimit BigDecimal,//Precision(15,2), default(0)
+    blocked Boolean required,//default(false)
+}
+
+entity CustomerContact{
+//    CustomerContact{customer required} to Customer,
+    code String required maxlength(10),
+    name String required maxlength(100),
+    phone String maxlength(20),//poner mascara
+    email String maxlength(50) pattern(/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/),
+//    CustomerContact{language required} to Language,
+    salespersonCode String maxlength(25),
+    isDefaultContact Boolean required,//default(false)
+
+}
+
+
+enum OperationType{
+    IN, OUT
+}
+
+enum OperationCounterpart{
+    VENDOR, LOCATION, CUSTOMER
+}
+
+entity MovementType{
+    code String required maxlength(3),
+    name String required maxlength(50),
+    type OperationType required, //Si es entrada o salida
+    counterpart OperationCounterpart, //la contraparte del movimiento, que puede ser un area, un proveedor o un cliente
+    //MovementType{oppositeMovementType required} to MovementType, Movimiento Contrario para las trasferencias o traspasos
+
+}
+
+
+enum MovementStatus{
+    PENDING, COMPLETED, CANCELED
+}
+
+entity Movement{
+    no String required maxlength(8),//Año(2)+Consecutivo(6)
+//    Movement{movementType required} to MovementType,
+    reference String maxlength(20),//en este campo se pone el documento que dio origen al movimiento (Ej: en una compra pa factura)
+    date LocalDate required,//fecha del movimiento
+//    Movement{location required} to Location,
+//    Movement{counterpartLocation} to Location,
+//    Movement{counterpartVendor} to Vendor,
+//    Movement{counterpartCustomer} to Customer,
+    note String maxlength(255),
+    canceledDate LocalDate,
+    status MovementStatus
+}
+
+
+entity MovementDetail{
+    //MovementDetail{movement required} to Movement,
+    //MovementDetail{product required} to Product,
+    //MovementDetail{inventory required} to Inventory,
+    unitCost BigDecimal required,//Precision(15,5), default(0)
+    qty BigDecimal required,//Precision(15,5), default(0)
+    salePrice BigDecimal,//Precision(15,2), default(0)
+    vendorCode String maxlength(30),
+    shelf String maxlength(50),
+    inventoryQty BigDecimal required,//Precision(15,5), default(0)
+}
+
+
+
+relationship ManyToOne {
+    UnitOfMeasureConversion{uom required} to UnitOfMeasure,
+    UnitOfMeasureConversion{uomEquivalent required} to UnitOfMeasure,
+    Product{uom required} to UnitOfMeasure,
+    Product{uomWeight required} to UnitOfMeasure,
+    Product{category required} to ProductCategory,
+    SystemModel{system required} to Systema,
+    Inventory{location required} to Location,
+    Inventory{product required} to Product,
+    Customer{deliveryZone required} to DeliveryZone,
+    Customer{taxAreaCode required} to TaxAreaCode,
+    CustomerContact{customer required} to Customer,
+    CustomerContact{language required} to Language,
+    MovementType{oppositeMovementType required} to MovementType,
+    Movement{movementType required} to MovementType,
+    Movement{location required} to Location,
+    Movement{counterpartLocation} to Location,
+    Movement{counterpartVendor} to Vendor,
+    Movement{counterpartCustomer} to Customer,
+    MovementDetail{movement required} to Movement,
+    MovementDetail{product required} to Product,
+    MovementDetail{inventory required} to Inventory,
+
+}
+
+relationship ManyToMany {
+    Product{systemModel} to SystemModel{product}
+}
+
+use mapstruct, serviceImpl, pagination for *
+
+use filter for Product, SystemModel, CustomerContact, Inventory
+
+
+
