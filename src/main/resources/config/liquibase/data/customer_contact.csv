@@ -1,0 +1,7 @@
+id;code;name;phone;email;salesperson_code;is_default_contact;customer_id;language_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;CON1001;Chris;305-392-1552;chris@sapwindows.com;RFELIPE;true;1;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;CON1002;Steph;305-558-7222;steph@sapwindows.com;RFELIPE;false;1;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;CON1003;Axel;305-123-4568;axel@sapwindows.com;RFELIPE;false;1;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;CON1004;Richard;305-123-4568;richard@buckwindows.com;RCRESPO;true;2;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;CON1005;Priscilla;954-154-5544;priscilla@buckwindows.com;RCRESPO;false;2;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;CON1006;Walter;954-154-5545;walter@buckwindows.com;RCRESPO;false;2;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

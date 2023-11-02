@@ -1,0 +1,11 @@
+id;qty;unit_cost;last_activity_date;shelf;reorder_point;vendor_lead_time;location_id;product_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;25090;85933;2023-09-26;Versatile input;55680;94399;1;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;83591;60015;2023-09-26;Ball Analyst Shoes;31351;27065;2;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;53120;45545;2023-09-26;teal supply-chains relationships;93640;35825;3;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;66268;14677;2023-09-26;Hryvnia Home;67023;86224;4;4;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;90808;85354;2023-09-26;Generic;32711;71739;5;5;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;50249;89872;2023-09-26;payment;51017;10695;6;6;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+7;46144;31017;2023-09-26;Hat Rhode Dollar;42788;32271;7;7;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+8;73999;20196;2023-09-26;Berkshire navigating Leu;91466;73482;8;8;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+9;45176;35306;2023-09-26;Lane generating capacity;92988;74604;9;9;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+10;65224;64266;2023-09-26;interface XML;29326;84084;10;10;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

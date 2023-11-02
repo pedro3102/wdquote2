@@ -1,0 +1,5 @@
+id;name;code;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;English;EN;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;Español;ES;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;French;FR;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+

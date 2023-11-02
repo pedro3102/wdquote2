@@ -1,0 +1,11 @@
+id;code;name;address;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;V001;pixel;extend Fish;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;V002;Granite Maine;Switchable Real;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;V003;matrix state Sports;Darussalam Electronics;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;V004;vertical Denmark;Savings;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;V005;Functionality maximized Shoes;interfaces Andorra;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;V006;experiences;Morocco;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+7;V007;frictionless concept Grass-roots;Field;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+8;V008;Chair;Denmark Steel;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+9;V009;Monitored circuit;back-end Lari;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+10;V010;paradigm mobile;Direct Associate program;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

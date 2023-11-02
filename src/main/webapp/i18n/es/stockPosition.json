@@ -1,0 +1,25 @@
+{
+  "stockPosition": {
+    "detail": {
+      "title": "Posición de inventario"
+    },
+    "home": {
+      "title": "Posiciones de inventario",
+      "search": "Filtrar Posición de inventario",
+      "createLabel": "Crear una nueva Posición de inventario"
+    },
+    "id": "ID",
+    "name": "Nombre",
+    "description": "Descripción",
+    "actions": {
+      "save": {
+        "success": "La Posición de inventario fue guardada exitosamente.",
+        "error": "Ocurrió un error salvando la Posición de inventario."
+      },
+      "update": {
+        "success": "La Posición de inventario fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando la Posición de inventario."
+      }
+    }
+  }
+}

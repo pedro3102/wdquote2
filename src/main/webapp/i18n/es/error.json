@@ -1,0 +1,28 @@
+{
+  "error": {
+    "title": "¡Página de error!",
+    "http": {
+      "400": "Solicitud incorrecta.",
+      "403": "No tiene permisos para acceder a la página.",
+      "404": "La página no existe.",
+      "405": "El verbo HTTP utilizado no tiene soporte para este URL.",
+      "500": "Error interno del servidor."
+    },
+    "axios": {
+      "400Title": "Solicitud Incorrecta",
+      "400Description": "El servidor no puede o no procesará la petición.",
+      "401Title": "Sin autorización",
+      "401Description": "No hay credenciales válidas de autenticación para el recurso solicitado.",
+      "403Title": "Rechazada",
+      "403Description": "No tiene autorizacion para acceder a estos recursos.",
+      "500Title": "Error interno de servidor",
+      "500Description": "El servidor encontró una condición inesperada que le impidió cumplir con la solicitud.",
+      "503Title": "Servicio No Disponible",
+      "503Description": "El servidor no está listo para manejar la solicitud",
+      "504Title": "Tiempo de espera agotado",
+      "504Description": "The servidor no pudo obtener una respuesta a tiempo."
+    },
+    "concurrencyFailure": "Otro usuario ha modificado estos datos al mismo tiempo que tú. Tus cambios fueron rechazados.",
+    "validation": "Error de validación en el servidor."
+  }
+}

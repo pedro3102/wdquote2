@@ -1,0 +1,28 @@
+{
+  "movementType": {
+    "detail": {
+      "title": "Tipo de Movimiento"
+    },
+    "home": {
+      "title": "Administrar Tipos de movimientos",
+      "search": "Filtrar Tipos de movimientos",
+      "createLabel": "Crear un nuevo Tipo de Movimiento"
+    },
+    "id": "ID",
+    "code": "Código",
+    "name": "Nombre",
+    "operationType": "Tipo",
+    "counterpart": "Contraparte",
+    "oppositeMovementType": "Mov. Contrario",
+    "actions": {
+      "save": {
+        "success": "El Tipo de Movimiento fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el Tipo de Movimiento."
+      },
+      "update": {
+        "success": "El Tipo de Movimiento fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el Tipo de Movimiento."
+      }
+    }
+  }
+}

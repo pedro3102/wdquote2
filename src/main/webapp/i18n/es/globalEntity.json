@@ -1,0 +1,21 @@
+{
+  "entity": {
+    "home": {
+      "title": "{entity} | {entity}s",
+      "createLabel": "Nuevo {entity}",
+      "createOrEditLabel": "Creando un {entity} | Editando un {entity}",
+      "createOrEditCustomLabel": "Creando un {entity} para {data} | Editando un {entity} para {data}",
+      "search": "Buscar {entity}"
+    },
+    "created": "A new {entity} is created with identifier { param }",
+    "updated": "A {entity} is updated with identifier { param }",
+    "deleted": "A {entity} is deleted with identifier { param }",
+    "detail": {
+      "title": "{entity}"
+    },
+    "name": "Name",
+    "docs": "Docs",
+    "toggleListView": "Toggle list layout",
+    "toggleCalendarView": "Toggle calendar layout"
+  }
+}

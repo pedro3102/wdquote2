@@ -1,0 +1,3 @@
+id;name;item_type;description;created_by;created_date;last_modified_by;last_modified_date;deleted
+1000;ACTION_MAIN_MENU_ADMIN;3;Main Menu Administration;system;2023-10-09 11:20:21.276000;system;2018-09-26 11:20:21.276000;false
+1001;ACTION_MAIN_MENU_ADMIN_USERS;3;Main Menu User Administration;system;2023-10-09 11:20:21.276000;system;2018-09-26 11:20:21.276000;false

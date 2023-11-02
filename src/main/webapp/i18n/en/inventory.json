@@ -1,0 +1,34 @@
+{
+  "inventory": {
+    "detail": {
+      "title": "Inventory"
+    },
+    "home": {
+      "title": "Inventories",
+      "search": "Search for Inventory"
+    },
+    "id": "ID",
+    "qty": "Qty",
+    "unitCost": "Unit Cost",
+    "lastActivityDate": "Last Activity Date",
+    "shelf": "Shelf",
+    "reorderPoint": "Reorder Point",
+    "vendorLeadTime": "Vendor Lead Time",
+    "location": "Location",
+    "product": "Product",
+    "status": "Status",
+    "inStock": "InStock",
+    "lowStock": "LowStock",
+    "outStock": "OutStock",
+    "actions": {
+      "save": {
+        "success": "The inventory was successfully saved. ",
+        "error": "An error occurred saving the inventory."
+      },
+      "update": {
+        "success": "The inventory was successfully updated.",
+        "error": "An error occurred updating the inventory."
+      }
+    }
+  }
+}

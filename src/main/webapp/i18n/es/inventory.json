@@ -1,0 +1,35 @@
+{
+  "inventory": {
+    "detail": {
+      "title": "Inventario"
+    },
+    "home": {
+      "title": "Administrar Inventarios",
+      "search": "Filtrar Inventarios",
+      "createLabel": "Crear un nuevo Inventario"
+    },
+    "id": "ID",
+    "qty": "Cantidad",
+    "unitCost": "Costo",
+    "lastActivityDate": "Fecha Última Actividad",
+    "shelf": "Posición",
+    "reorderPoint": "Valor Reorden",
+    "vendorLeadTime": "Plazo de Entrega",
+    "location": "Localización",
+    "product": "Producto",
+    "status": "Estado",
+    "inStock": "Disponible",
+    "lowStock": "Bajo Stock",
+    "outStock": "Agotado",
+    "actions": {
+      "save": {
+        "success": "El inventario fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el inventario."
+      },
+      "update": {
+        "success": "El inventario fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando el inventario."
+      }
+    }
+  }
+}

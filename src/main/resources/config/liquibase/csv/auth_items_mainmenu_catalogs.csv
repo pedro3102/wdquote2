@@ -1,0 +1,9 @@
+id;name;item_type;description;created_by;created_date;last_modified_by;last_modified_date;deleted
+101;ACTION_MAIN_MENU_CATALOG;3;Main Menu Catalogs;system;2023-10-09 11:20:21.276000;system;2023-10-09 11:20:21.276000;false
+102;ACTION_MAIN_MENU_CATALOG_VENDOR;3;Main Menu Catalogs Vendor;system;2023-10-09 11:20:21.276000;system;2023-10-09 11:20:21.276000;false
+103;ACTION_MAIN_MENU_CATALOG_LOCATION;3;Main Menu Catalogs Location;system;2023-10-09 11:20:21.276000;system;2023-10-09 11:20:21.276000;false
+104;ACTION_MAIN_MENU_CATALOG_PRODUCT_CATEGORY;3;Main Menu Catalogs Product Category;system;2023-10-09 11:20:21.276000;system;2023-10-09 11:20:21.276000;false
+105;ACTION_MAIN_MENU_CATALOG_SYSTEM;3;Main Menu Catalogs System;system;2023-10-09 11:20:21.276000;system;2023-10-09 11:20:21.276000;false
+106;ACTION_MAIN_MENU_CATALOG_SYSTEM_MODEL;3;Main Menu Catalogs System Model;system;2023-10-13 11:20:21.276000;system;2023-10-13 11:20:21.276000;false
+107;ACTION_MAIN_MENU_CATALOG_LANGUAGE;3;Main Menu Catalogs Language;system;2023-10-13 11:21:21.276000;system;2023-10-13 11:21:21.276000;false
+108;ACTION_MAIN_MENU_CATALOG_UNIT_OF_MEASURE;3;Main Menu Catalogs Unit of Measure;system;2023-10-13 11:22:21.276000;system;2023-10-13 11:22:21.276000;false

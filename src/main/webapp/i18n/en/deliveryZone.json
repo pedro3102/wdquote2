@@ -1,0 +1,25 @@
+{
+  "deliveryZone": {
+    "detail": {
+      "title": "Delivery Zone"
+    },
+    "home": {
+      "title": "Delivery Zones",
+      "search": "Search for Delivery Zone",
+      "createLabel": "Create a new Delivery Zone"
+    },
+    "id": "ID",
+    "code": "Code",
+    "name": "Name",
+    "actions": {
+      "save": {
+        "success": "The delivery zone was successfully saved. ",
+        "error": "An error occurred saving the delivery zone."
+      },
+      "update": {
+        "success": "The delivery zone was successfully updated.",
+        "error": "An error occurred updating the delivery zone."
+      }
+    }
+  }
+}

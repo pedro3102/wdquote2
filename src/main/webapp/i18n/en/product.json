@@ -1,0 +1,31 @@
+{
+  "product": {
+    "detail": {
+      "title": "Product"
+    },
+    "home": {
+      "title": "Products",
+      "search": "Search for Product",
+      "createLabel": "Create a new product"
+    },
+    "id": "ID",
+    "code": "Code",
+    "description": "Description",
+    "weight": "Weight",
+    "picture": "Picture",
+    "uom": "UOM",
+    "uomWeight": "UOM Weight",
+    "category": "Category",
+    "systemModel": "System Models",
+    "actions": {
+      "save": {
+        "success": "The product was successfully saved. ",
+        "error": "An error occurred saving the product."
+      },
+      "update": {
+        "success": "The product was successfully updated.",
+        "error": "An error occurred updating the product."
+      }
+    }
+  }
+}

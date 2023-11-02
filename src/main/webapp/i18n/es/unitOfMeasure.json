@@ -1,0 +1,26 @@
+{
+  "unitOfMeasure": {
+    "detail": {
+      "title": "Unidad de Medida"
+    },
+    "home": {
+      "title": "Administrar Unidades de Medida",
+      "search": "Filtrar Unidad de Medida",
+      "createLabel": "Crear una nueva Unidad de Medida"
+    },
+    "id": "ID",
+    "name": "Nombre",
+    "abbreviation": "Abreviatura",
+    "allowsDecimal": "Permite Decimal",
+    "actions": {
+      "save": {
+        "success": "La unidad de medida fue guardada exitosamente.",
+        "error": "Ocurrió un error salvando la unidad de medida."
+      },
+      "update": {
+        "success": "La unidad de medida fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando la unidad de medida."
+      }
+    }
+  }
+}

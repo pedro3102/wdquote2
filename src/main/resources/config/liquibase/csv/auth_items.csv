@@ -1,0 +1,6 @@
+id;name;item_type;description;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;ROLE_SYSTEM;1;Super Administrator Roles.;system;2023-10-09 14:31:33.657000;system;2023-10-09 16:49:45.318000;false
+2;ROLE_ADMIN;1;Administrator Roles.;system;2023-10-09 14:31:33.657000;system;2023-10-09 16:49:45.318000;false
+3;ROLE_USER;1;Default User Role in the System.;system;2023-10-09 12:02:33.784000;system;2023-10-09 14:55:11.021000;false
+50;RESOURCE_MAIN_MENU;2;Resource Main Menu;system;2023-10-09 15:51:53.705000;system;2023-10-09 10:52:28.933000;false
+100;ACTION_MAIN_MENU_DASHBOARD;3;Main Menu Dashboard;system;2023-10-09 11:20:21.276000;system;2023-10-09 11:20:21.276000;false

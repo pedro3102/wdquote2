@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity AuthItemChild.
+    -->
+    <changeSet id="20231009205019-2" author="jesus">
+
+        <addForeignKeyConstraint baseColumnNames="parent_id"
+                                 baseTableName="auth_item_child"
+                                 constraintName="fk_auth_item_child_parent_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="auth_item"/>
+
+        <addForeignKeyConstraint baseColumnNames="child_id"
+                                 baseTableName="auth_item_child"
+                                 constraintName="fk_auth_item_child_child_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="auth_item"/>
+
+    </changeSet>
+</databaseChangeLog>

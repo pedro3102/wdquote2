@@ -1,0 +1,4 @@
+id;name;description;picture;system_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;SAP-100;Description SAP-100;-;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;SAP-200;Description SAP-200;-;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;SAP-300;Description SAP-300;-;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

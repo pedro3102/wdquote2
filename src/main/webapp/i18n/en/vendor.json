@@ -1,0 +1,26 @@
+{
+  "vendor": {
+    "detail": {
+      "title": "Vendor"
+    },
+    "home": {
+      "title": "Vendors",
+      "search": "Search for Vendor",
+      "createLabel": "Create a new Vendor"
+    },
+    "id": "ID",
+    "code": "Code",
+    "name": "Name",
+    "address": "Address",
+    "actions": {
+      "save": {
+        "success": "The vendor was successfully saved. ",
+        "error": "An error occurred saving the vendor."
+      },
+      "update": {
+        "success": "The vendor was successfully updated.",
+        "error": "An error occurred updating the vendor."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+id;code;description;weight;picture;uom_id;uom_weight_id;category_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;P001;Assistant;57374;monetize Consultant wireless;1;1;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;P002;Dynamic Pound withdrawal;88209;Unbranded Soap;2;2;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;P003;throughput;46442;transmitting New Bedfordshire;3;3;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;P004;neutral;4184;Business-focused;4;4;4;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;P005;aggregate Security Data;35518;Dynamic Sports;5;5;5;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;P006;Ethiopia;66238;Rubber Chips;6;6;6;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+7;P007;Center black pixel;28408;optical Cheese;7;7;7;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+8;P008;Computer Arizona mobile;44109;User-friendly Data navigate;8;8;8;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+9;P009;Checking system-worthy;9545;Brand;9;9;9;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+10;P010;Automotive;53352;Zimbabwe Games Balboa;10;10;10;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

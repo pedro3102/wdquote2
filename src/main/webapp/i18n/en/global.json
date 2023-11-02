@@ -1,0 +1,195 @@
+{
+  "global": {
+    "title": "Wd-quote",
+    "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
+    "menu": {
+      "home": "Home",
+      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+      "entities": {
+        "main": "Entities",
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+      },
+      "account": {
+        "main": "Account",
+        "settings": "Settings",
+        "password": "Password",
+        "sessions": "Sessions",
+        "login": "Sign in",
+        "logout": "Sign out",
+        "register": "Register"
+      },
+      "admin": {
+        "main": "Administration",
+        "userManagement": "User management",
+        "tracker": "User tracker",
+        "metrics": "Metrics",
+        "health": "Health",
+        "configuration": "Configuration",
+        "logs": "Logs",
+        "apidocs": "API",
+        "database": "Database",
+        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+      },
+      "language": "Language"
+    },
+    "form": {
+      "username.label": "Username",
+      "username.placeholder": "Your username",
+      "currentpassword.label": "Current password",
+      "currentpassword.placeholder": "Current password",
+      "newpassword.label": "New password",
+      "newpassword.placeholder": "New password",
+      "confirmpassword.label": "New password confirmation",
+      "confirmpassword.placeholder": "Confirm the new password",
+      "email.label": "Email",
+      "email.placeholder": "Your email"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "If you want to ",
+          "link": "sign in",
+          "suffix": ", you can try the default accounts:<br/>- Administrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\")."
+        },
+        "register": {
+          "noaccount": "You don't have an account yet?",
+          "link": "Register a new account"
+        }
+      },
+      "error": {
+        "dontmatch": "The password and its confirmation do not match!"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "Your password is required.",
+          "minlength": "Your password is required to be at least 4 characters.",
+          "maxlength": "Your password cannot be longer than 50 characters.",
+          "strength": "Password strength:"
+        },
+        "confirmpassword": {
+          "required": "Your confirmation password is required.",
+          "minlength": "Your confirmation password is required to be at least 4 characters.",
+          "maxlength": "Your confirmation password cannot be longer than 50 characters."
+        },
+        "email": {
+          "required": "Your email is required.",
+          "invalid": "Your email is invalid.",
+          "minlength": "Your email is required to be at least 5 characters.",
+          "maxlength": "Your email cannot be longer than 50 characters."
+        }
+      }
+    },
+    "field": {
+      "id": "ID"
+    },
+    "ribbon": {
+      "dev": "Development"
+    },
+    "item-count": "Showing { first } - { second } of { total } items."
+  },
+  "entity": {
+    "action": {
+      "addblob": "Add blob",
+      "addimage": "Add image",
+      "back": "Back",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "add": "Add",
+      "edit": "Edit",
+      "open": "Open",
+      "save": "Save",
+      "confirm": "Confirm",
+      "view": "View",
+      "show": "Show { otherEntity }",
+      "yesUppercase": "YES",
+      "noUppercase": "NO",
+      "changeStatus": {
+        "header": "Change Status",
+        "message": "Change active status for {user}",
+        "success": "Success operation",
+        "cancel": "Operation was cancel"
+      }
+    },
+    "detail": {
+      "field": "Field",
+      "value": "Value"
+    },
+    "delete": {
+      "title": "Confirm delete operation",
+      "success": "Success delete operation.",
+      "error": "Delete operation Error.",
+      "question": "Do you want to delete: {entity}?"
+    },
+    "validation": {
+      "required": "This field is required.",
+      "minlength": "This field is required to be at least { min } characters.",
+      "maxlength": "This field cannot be longer than { max } characters.",
+      "min": "This field should be at least { min }.",
+      "positive": "This field should be greater than 0.",
+      "max": "This field cannot be more than { max }.",
+      "minbytes": "This field should be at least { min } bytes.",
+      "maxbytes": "This field cannot be more than { max } bytes.",
+      "pattern": "This field should follow pattern for { pattern }.",
+      "number": "This field should be a number.",
+      "datetimelocal": "This field should be a date and time.",
+      "patternLogin": "This field can only contain letters, digits and e-mail addresses.",
+      "email": "The Email address is not valid."
+    },
+    "filters": {
+      "set": "Following filters are set",
+      "clear": "Clear filter",
+      "clearAll": "Clear all filters"
+    }
+  },
+  "error": {
+    "internalServerError": "Internal server error",
+    "server.not.reachable": "Server not reachable",
+    "url.not.found": "Not found",
+    "NotNull": "Field { fieldName } cannot be empty!",
+    "Size": "Field { fieldName } does not meet min/max size requirements!",
+    "userexists": "Login name already used!",
+    "emailexists": "Email is already in use!",
+    "idexists": "A new { entityName } cannot already have an ID",
+    "idnull": "Invalid ID",
+    "idinvalid": "Invalid ID",
+    "idnotfound": "ID cannot be found",
+    "invalidForm": "Invalid data, please check the information and try again.",
+    "file": {
+      "could.not.extract": "Could not extract file",
+      "not.image": "File was expected to be an image but was found to be \"{ fileType }\""
+    },
+    "forbidden": {
+      "breadcrumb": "403 Error Page",
+      "title": "Oops! Access not Granted.",
+      "description": "You do not have access to this page. If you think it is an error contact your Administrator, or you may"
+    },
+    "notFound": {
+      "breadcrumb": "404 Error Page",
+      "title": "Oops! Page not found.",
+      "description": "We could not find the page you were looking for. If you think it is an error contact your Administrator, or you may"
+    }
+  },
+  "footer": "This is your footer",
+  "info": {
+    "noInformation": "No information found.",
+    "maxlengthTooltip": "Only {length} characters alowed"
+  },
+  "components": {
+    "dt": {
+      "exportCSV": "Export  CSV",
+      "maximizable": "Maximize Table",
+      "restartFilter": "Remove Filters",
+      "searchBy": "Search by {field}",
+      "selectFilterPlaceholder": "Select One",
+      "multiSelectFilterPlaceholder": "Any",
+      "editOneRow": "You can only edit one row at a time.",
+      "addOneRow": "You cannot add while editing."
+    },
+    "toast": {
+      "success": "Success",
+      "info": "Info",
+      "warn": "Warning",
+      "error": "Error"
+    }
+  }
+}

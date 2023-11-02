@@ -1,0 +1,31 @@
+{
+  "customerContact": {
+    "detail": {
+      "title": "Contacto de Cliente"
+    },
+    "home": {
+      "title": "Administrar Contactos de Cliente",
+      "search": "Filtrar Contacto de Cliente",
+      "createLabel": "Crear un nuevo cliente"
+    },
+    "id": "ID",
+    "code": "Código",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "salespersonCode": "Código de Vendedor",
+    "isDefaultContact": "Es Contacto Principal",
+    "customer": "Cliente",
+    "language": "Lenguaje",
+    "actions": {
+      "save": {
+        "success": "El contacto de cliente fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el contacto de cliente."
+      },
+      "update": {
+        "success": "El contacto de cliente fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el contacto de cliente."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "product": {
+    "detail": {
+      "title": "Producto"
+    },
+    "home": {
+      "title": "Administrar Productos",
+      "search": "Filtrar Productos",
+      "createLabel": "Crear un nuevo Producto"
+    },
+    "id": "ID",
+    "code": "Código",
+    "description": "Descripción",
+    "weight": "Peso",
+    "picture": "Imagen",
+    "uom": "UM",
+    "uomWeight": "UM Peso",
+    "category": "Categoría",
+    "systemModel": "Modelo de Sistemas",
+    "actions": {
+      "save": {
+        "success": "El producto fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el producto."
+      },
+      "update": {
+        "success": "El producto fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando el producto."
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "movementDetail": {
+    "detail": {
+      "title": "Detalle de movimiento",
+      "childTitle": "{movement}"
+    },
+    "home": {
+      "title": "Detalles de movimiento",
+      "createLabel": "Crear un nuevo Detalle",
+      "createConversionLabel": "Añadir detalle a Movimiento",
+      "search": "Buscar detalles del movimiento"
+    },
+    "id": "ID",
+    "product": "Producto",
+    "vendorCode": "Código Proveedor",
+    "unitCost": "Costo",
+    "salePrice": "Precio",
+    "qty": "Cantidad",
+    "inventoryQty": "En Inventario",
+    "stockPosition": "Posición del Inventario",
+    "actions": {
+      "save": {
+        "success": "El detalle fue salvado exitosamente.",
+        "error": "Ocurrió un error salvando el detalle."
+      },
+      "update": {
+        "success": "El detalle fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el detalle."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unitOfMeasureConversion": {
+    "detail": {
+      "title": "Conversiones",
+      "childTitle": "Conversiones de {uom}"
+    },
+    "home": {
+      "title": "Administrar Unidades de Medida",
+      "search": "Filtrar Unidad de Medida",
+      "createLabel": "Crear Conversión de Unidad de Medida"
+    },
+    "id": "ID",
+    "uom": "UM",
+    "uomEquivalent": "UM Equivalente",
+    "conversionFactor": "Factor",
+    "actions": {
+      "save": {
+        "success": "La unidad de medida fue guardada exitosamente.",
+        "error": "Ocurrió un error salvando la unidad de medida."
+      },
+      "update": {
+        "success": "La unidad de medida fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando la unidad de medida."
+      }
+    }
+  }
+}

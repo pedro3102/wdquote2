@@ -1,0 +1,3 @@
+id;code;name;address;tax_liable;tax_exemption_code;payment_terms;credit_limit;blocked;delivery_zone_id;tax_area_code_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;10000;SAP WINDOW AND DOOR SERVICES LLC;10655 NW 122ND AVE;false;74-80113013719-6;NET30;100000;false;1;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;10000;BUCKLEY WINDOW CORP;201 NE 32ND ST.;true;-;50DEP/COD;NULL;false;2;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

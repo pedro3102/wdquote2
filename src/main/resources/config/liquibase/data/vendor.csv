@@ -1,0 +1,4 @@
+id;code;name;address;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;50001;Hydro Extrusions;-;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;50002;Beymetal Extrusions;-;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+

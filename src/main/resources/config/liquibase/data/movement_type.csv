@@ -1,0 +1,9 @@
+id;code;name;type;counterpart;opposite_movement_type_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;I01;Purchase;1;1;NULL;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;O01;Sales;2;3;NULL;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;I02;Internal Input Transfer;1;2;NULL;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;O02;Internal Output Transfer;2;2;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;I03;Input Adjustment;1;0;NULL;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;O03;Output Adjustment;2;0;NULL;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+
+

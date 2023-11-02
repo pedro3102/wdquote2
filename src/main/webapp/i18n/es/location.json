@@ -1,0 +1,28 @@
+{
+  "location": {
+    "detail": {
+      "title": "Ubicación"
+    },
+    "home": {
+      "title": "Administrar Ubicaciones",
+      "search": "Filtrar ubicaciones",
+      "createLabel": "Crear una nueva ubicación"
+    },
+    "id": "ID",
+    "code": "Código",
+    "name": "Nombre",
+    "address": "Dirección",
+    "isWarehouse": "Es almacén",
+    "locationType": "Tipo ubicación",
+    "actions": {
+      "save": {
+        "success": "La ubicación fue guardada exitosamente.",
+        "error": "Ocurrió un error salvando la ubicación."
+      },
+      "update": {
+        "success": "La ubicación fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando la ubicación."
+      }
+    }
+  }
+}

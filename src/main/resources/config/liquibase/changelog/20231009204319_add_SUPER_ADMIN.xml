@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql"/>
+    <property name="autoIncrement" value="true" dbms="mysql,h2,postgresql,oracle"/>
+
+    <!--
+       Add user system.
+   -->
+    <changeSet id="20231009204319-1" author="jesus">
+        <insert tableName="jhi_user">
+            <column name="id" value="3"/>
+            <column name="login" value="system"/>
+            <column name="password_hash" value="$2a$10$gSAhZrxMllrbgj/kkK9UceBPpChGWJA7SYIb1Mqo.n5aNLq1/oRrC"/>
+            <column name="first_name" value="Super"/>
+            <column name="last_name" value="Administrator"/>
+            <column name="email" value="system.WD@gmail.com"/>
+            <column name="image_url" value="null"/>
+            <column name="activated" value="true"/>
+            <column name="lang_key" value="en"/>
+            <column name="activation_key" value="null"/>
+            <column name="reset_key" value="null"/>
+            <column name="created_by" value="system"/>
+            <column name="created_date" value="now()"/>
+            <column name="reset_date" value="null"/>
+            <column name="last_modified_by" value="system"/>
+            <column name="last_modified_date" value="now()"/>
+            <column name="deleted" value="false"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

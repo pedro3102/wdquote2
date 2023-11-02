@@ -1,0 +1,34 @@
+{
+  "productCategory": {
+    "home": {
+      "title": "Administrar Categoría de Productos",
+      "refreshListLabel": "Refrescar lista",
+      "createLabel": "Crear nueva Categoría de Productos",
+      "createOrEditLabel": "Crear o editar Categoría de Productos",
+      "notFound": "No se encontró ninguna Categoría de Productos",
+      "search": "Buscar Categoría de Productos"
+    },
+    "created": "Una nueva Categoría de Productos ha sido creada con el identificador {{ param }}",
+    "updated": "Una Categoría de Productos ha sido actualizada con el identificador {{ param }}",
+    "deleted": "Una Categoría de Productos ha sido eliminada con el identificador {{ param }}",
+    "delete": {
+      "question": "¿Seguro qué quiere eliminar Categoría de Productos {{ name }}?"
+    },
+    "detail": {
+      "title": "Categoría de Productos"
+    },
+    "id": "ID",
+    "name": "Name",
+    "picture": "Picture",
+    "actions": {
+      "save": {
+        "success": "La Categoría de Productos fue salvada satisfactoriamente.",
+        "error": "Ocurrió un error al salvar la Categoría de Productos."
+      },
+      "update": {
+        "success": "La Categoría de Productos fue actualizada satisfactoriamente.",
+        "error": "Ocurrió un error al actualizar la Categoría de Productos."
+      }
+    }
+  }
+}

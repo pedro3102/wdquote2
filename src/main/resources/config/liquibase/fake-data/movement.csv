@@ -1,0 +1,7 @@
+id;no;reference;date;note;canceled_date;status;type;counterpart;movement_type_id;location_id;counterpart_location_id;counterpart_vendor_id;counterpart_customer_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;M2300001;Chips;2023-09-26;Account bluetooth;2023-09-26;1;1;1;1;1;;1;;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;M2300002;withdrawal;2023-09-26;Avenue;2023-09-26;2;2;3;2;3;;;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;M2300003;Tennessee;2023-09-26;UAE Algerian embrace;2023-09-26;3;1;2;3;3;1;;;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;M2300004;line e-tailers;2023-09-26;Fish COM;2023-09-26;2;2;2;4;4;2;;;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;M2300005;navigating Computer;2023-09-26;Kids salmon;2023-09-26;1;1;0;5;5;;;;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;M2300006;lime Executive turqu;2023-09-26;optical Highway Handcrafted;2023-09-26;3;2;0;6;6;;;;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

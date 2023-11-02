@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity UnitOfMeasureConversion.
+    -->
+    <changeSet id="20230927005351-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="uom_id"
+                                 baseTableName="unit_of_measure_conversion"
+                                 constraintName="fk_unit_of_measure_conversion__uom_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unit_of_measure"/>
+
+        <addForeignKeyConstraint baseColumnNames="uom_equivalent_id"
+                                 baseTableName="unit_of_measure_conversion"
+                                 constraintName="fk_unit_of_measure_conversion__uom_equivalent_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unit_of_measure"/>
+    </changeSet>
+</databaseChangeLog>

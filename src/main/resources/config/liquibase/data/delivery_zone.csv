@@ -1,0 +1,4 @@
+id;code;name;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;ZONE-1;ZONE-1 Name;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;ZONE-2;ZONE-2 Name;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+

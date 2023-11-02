@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Liquibase to Init.
+    -->
+    <changeSet id="20231009205819-1" author="jesus">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/csv/auth_items.csv"
+                  separator=";"
+                  tableName="auth_item">
+            <column name="activated" type="boolean"/>
+            <column name="created_date" type="timestamp"/>
+        </loadData>
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/csv/auth_assignment_init.csv"
+                  separator=";"
+                  tableName="auth_assignment">
+            <column name="activated" type="boolean"/>
+            <column name="created_date" type="timestamp"/>
+        </loadData>
+        <sql dbms="postgresql" splitStatements="true"
+             stripComments="true"><![CDATA[INSERT INTO auth_assignment (user_id, auth_item_id) SELECT  jhi_user.id, 3 FROM jhi_user WHERE jhi_user.id <> 1 AND jhi_user.id <> 2 AND jhi_user.id <> 3]]>
+            <comment>Authorization Migration</comment>
+        </sql>
+    </changeSet>
+    <changeSet id="20231009205819-2" author="jesus">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/csv/auth_items_mainmenu_catalogs.csv"
+                  separator=";"
+                  tableName="auth_item">
+            <column name="activated" type="boolean"/>
+            <column name="created_date" type="timestamp"/>
+        </loadData>
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/csv/auth_items_mainmenu_admin.csv"
+                  separator=";"
+                  tableName="auth_item">
+            <column name="activated" type="boolean"/>
+            <column name="created_date" type="timestamp"/>
+        </loadData>
+    </changeSet>
+</databaseChangeLog>
