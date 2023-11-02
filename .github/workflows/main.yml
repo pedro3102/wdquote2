@@ -3,7 +3,7 @@ name: Application CI
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 jobs:
   pipeline:
     name: wd-quote pipeline
@@ -36,7 +36,7 @@ jobs:
       - name: Package application
         run: npm run java:jar:prod
       - name: Deploy to Heroku
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: |
