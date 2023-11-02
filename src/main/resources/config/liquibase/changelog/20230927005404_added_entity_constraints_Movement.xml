@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Movement.
+    -->
+    <changeSet id="20230927005404-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="movement_type_id"
+                                 baseTableName="movement"
+                                 constraintName="fk_movement__movement_type_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="movement_type"/>
+
+        <addForeignKeyConstraint baseColumnNames="location_id"
+                                 baseTableName="movement"
+                                 constraintName="fk_movement__location_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="location"/>
+
+        <addForeignKeyConstraint baseColumnNames="counterpart_location_id"
+                                 baseTableName="movement"
+                                 constraintName="fk_movement__counterpart_location_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="location"/>
+
+        <addForeignKeyConstraint baseColumnNames="counterpart_vendor_id"
+                                 baseTableName="movement"
+                                 constraintName="fk_movement__counterpart_vendor_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="vendor"/>
+
+        <addForeignKeyConstraint baseColumnNames="counterpart_customer_id"
+                                 baseTableName="movement"
+                                 constraintName="fk_movement__counterpart_customer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="customer"/>
+    </changeSet>
+</databaseChangeLog>

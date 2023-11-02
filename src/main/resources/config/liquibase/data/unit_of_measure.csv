@@ -1,0 +1,5 @@
+id;name;abbreviation;allows_decimal;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;Foot;ft;true;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;Lineal24;L24;false;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;Ounce;oz;true;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;Pound;lb;true;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

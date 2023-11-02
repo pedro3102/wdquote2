@@ -1,0 +1,4 @@
+id;code;name;address;is_warehouse;location_type;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;L001;WAREHOUSE;-;true;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;L002;WIP;-;false;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;L003;OUT TO PAINT;-;false;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

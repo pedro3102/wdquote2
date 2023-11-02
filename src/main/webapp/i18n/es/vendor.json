@@ -1,0 +1,26 @@
+{
+  "vendor": {
+    "detail": {
+      "title": "Proveedor"
+    },
+    "home": {
+      "title": "Administrar Proveedores",
+      "search": "Filtrar proveedores",
+      "createLabel": "Crear un nuevo proveedor"
+    },
+    "id": "ID",
+    "code": "Código",
+    "name": "Nombre",
+    "address": "Dirección",
+    "actions": {
+      "save": {
+        "success": "EL proveedor fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el proveedor."
+      },
+      "update": {
+        "success": "El proveedor fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el proveedor."
+      }
+    }
+  }
+}

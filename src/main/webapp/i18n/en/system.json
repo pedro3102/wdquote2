@@ -1,0 +1,25 @@
+{
+  "system": {
+    "detail": {
+      "title": "System"
+    },
+    "home": {
+      "title": "Systems",
+      "search": "Search for system",
+      "createLabel": "Create a new system"
+    },
+    "id": "ID",
+    "name": "Name",
+    "picture": "Picture",
+    "actions": {
+      "save": {
+        "success": "The system was successfully saved. ",
+        "error": "An error occurred saving the system."
+      },
+      "update": {
+        "success": "The system was successfully updated.",
+        "error": "An error occurred updating the system."
+      }
+    }
+  }
+}

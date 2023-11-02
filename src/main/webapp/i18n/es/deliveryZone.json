@@ -1,0 +1,25 @@
+{
+  "deliveryZone": {
+    "detail": {
+      "title": "Zona de Entrega"
+    },
+    "home": {
+      "title": "Administrar Zonas de Entrega",
+      "search": "Filtrar Zonas de Entrega",
+      "createLabel": "Crear una nueva zona de entrega"
+    },
+    "id": "ID",
+    "code": "Código",
+    "name": "Nombre",
+    "actions": {
+      "save": {
+        "success": "La zona de entrega fue guardada exitosamente.",
+        "error": "Ocurrió un error salvando la zona de entrega."
+      },
+      "update": {
+        "success": "La zona de entrega fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando la zona de entrega."
+      }
+    }
+  }
+}

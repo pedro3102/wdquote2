@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+
+    <changeSet id="20231101155349-1-data" author="pedro" context="prod">
+        <loadData
+                  file="config/liquibase/data/product_category.csv"
+                  separator=";"
+                  tableName="product_category"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="name" type="string"/>
+            <column name="picture" type="string"/>
+        </loadData>
+        <loadData
+            file="config/liquibase/data/unit_of_measure.csv"
+            separator=";"
+            tableName="unit_of_measure"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="name" type="string"/>
+            <column name="abbreviation" type="string"/>
+            <column name="allows_decimal" type="boolean"/>
+        </loadData>
+        <loadData
+            file="config/liquibase/data/unit_of_measure_conversion.csv"
+            separator=";"
+            tableName="unit_of_measure_conversion"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="conversion_factor" type="numeric"/>
+            <column name="uom_id" type="numeric"/>
+            <column name="uom_equivalent_id" type="numeric"/>
+        </loadData>
+        <loadData
+            file="config/liquibase/data/product.csv"
+            separator=";"
+            tableName="product"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="code" type="string"/>
+            <column name="description" type="string"/>
+            <column name="weight" type="numeric"/>
+            <column name="picture" type="string"/>
+            <column name="uom_id" type="numeric"/>
+            <column name="uom_weight_id" type="numeric"/>
+            <column name="category_id" type="numeric"/>
+        </loadData>
+        <loadData
+            file="config/liquibase/data/systema.csv"
+            separator=";"
+            tableName="systema"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="name" type="string"/>
+            <column name="picture" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+        <loadData
+            file="config/liquibase/data/system_model.csv"
+            separator=";"
+            tableName="system_model"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="name" type="string"/>
+            <column name="description" type="string"/>
+            <column name="picture" type="string"/>
+            <column name="system_id" type="numeric"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+        <loadData
+            file="config/liquibase/data/location.csv"
+            separator=";"
+            tableName="location"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="code" type="string"/>
+            <column name="name" type="string"/>
+            <column name="address" type="string"/>
+            <column name="is_warehouse" type="boolean"/>
+            <column name="location_type" type="numeric"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+        <loadData
+            file="config/liquibase/data/vendor.csv"
+            separator=";"
+            tableName="vendor"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="code" type="string"/>
+            <column name="name" type="string"/>
+            <column name="address" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+        <loadData
+            file="config/liquibase/data/delivery_zone.csv"
+            separator=";"
+            tableName="delivery_zone"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="code" type="string"/>
+            <column name="name" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+        <loadData
+            file="config/liquibase/data/tax_area_code.csv"
+            separator=";"
+            tableName="tax_area_code"
+            usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="code" type="string"/>
+            <column name="name" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

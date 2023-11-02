@@ -1,0 +1,27 @@
+{
+  "unitOfMeasureConversion": {
+    "detail": {
+      "title": "Unit of Measure Conversion",
+      "childTitle": "{uom} Conversion"
+    },
+    "home": {
+      "title": "Unit of Measure Conversions",
+      "createLabel": "Create a new Conversion",
+      "createConversionLabel": "Add conversion to Unit of Measure"
+    },
+    "id": "ID",
+    "uom": "UOM",
+    "uomEquivalent": "UOM Equivalent",
+    "conversionFactor": "Factor",
+    "actions": {
+      "save": {
+        "success": "The unit of measure was successfully saved. ",
+        "error": "An error occurred saving the unit of measure."
+      },
+      "update": {
+        "success": "The unit of measure was successfully updated.",
+        "error": "An error occurred updating the unit of measure."
+      }
+    }
+  }
+}

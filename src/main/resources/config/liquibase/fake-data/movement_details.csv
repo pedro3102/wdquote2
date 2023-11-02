@@ -1,0 +1,7 @@
+id;unit_cost;qty;sale_price;vendor_code;inventory_qty;movement_id;product_id;inventory_id;stock_position_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;50687;75276;22636;Somali International;37283;1;1;1;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;65305;427;50563;Web (Bouvetoya) Ball;42915;2;2;2;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;66753;8401;8292;Electronics Handmade Congo;12081;3;3;3;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;31692;24729;91914;deposit deliverables Account;73046;4;4;4;4;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;88920;45509;70427;Fantastic Toys;43161;5;5;5;5;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;64389;72477;20151;array niches Rubber;96773;6;6;6;6;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

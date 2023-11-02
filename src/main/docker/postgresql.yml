@@ -1,12 +1,12 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
-name: wdquote2
+name: wd-quote
 services:
   postgresql:
-    image: postgres:15.4
+    image: postgres:15.3
     # volumes:
-    #   - ~/volumes/jhipster/wdquote2/postgresql/:/var/lib/postgresql/data/
+    #   - ~/volumes/jhipster/wd-quote/postgresql/:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=wdquote2
+      - POSTGRES_USER=wd-quote
       - POSTGRES_PASSWORD=
       - POSTGRES_HOST_AUTH_METHOD=trust
     healthcheck:

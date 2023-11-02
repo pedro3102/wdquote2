@@ -1,0 +1,11 @@
+id;code;description;weight;picture;uom_id;uom_weight_id;category_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;SAP-E101-BLK;Description SAP-E101-BLK;12.88;-;2;4;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;SAP-E101-BRZ;Description SAP-E101-BRZ;12.88;-;2;4;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;SAP-E101-CLR;Description SAP-E101-CLR;12.88;-;2;4;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;SAP-E101-MIL;Description SAP-E101-MIL;12.88;-;2;4;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;SAP-E101-WHT;Description SAP-E101-WHT;12.88;-;2;4;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;SAP-E102-BLK;Description SAP-E102-BLK;16.32;-;2;4;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+7;SAP-E102-BRZ;Description SAP-E102-BRZ;16.32;-;2;4;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+8;SAP-E102-PF2603;Description SAP-E102-PF2603;16.32;-;2;4;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+9;SAP-E105-BLK;Description SAP-E105-BLK;14.18;-;2;4;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+10;SAP-E105-MIL;Description SAP-E105-MIL;14.18;-;2;4;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

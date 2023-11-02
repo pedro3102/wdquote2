@@ -1,0 +1,32 @@
+{
+  "movementDetail": {
+    "detail": {
+      "title": "Movement Detail",
+      "childTitle": "{movement} details"
+    },
+    "home": {
+      "title": "Movement Details",
+      "createLabel": "Create a new Detail",
+      "createConversionLabel": "Add detail to Movement",
+      "search": "Search for Movement Details"
+    },
+    "id": "ID",
+    "product": "Product",
+    "vendorCode": "Vendor Code",
+    "unitCost": "Unit Cost",
+    "salePrice": "Sale Price",
+    "qty": "Qty",
+    "inventoryQty": "Inventory Qty",
+    "stockPosition": "Stock Position",
+    "actions": {
+      "save": {
+        "success": "The detail was successfully saved. ",
+        "error": "An error occurred saving the detail."
+      },
+      "update": {
+        "success": "The detail was successfully updated.",
+        "error": "An error occurred updating the detail."
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "stockPosition": {
+    "detail": {
+      "title": "Stock Position"
+    },
+    "home": {
+      "title": "Stock Positions",
+      "search": "Search for a stock position",
+      "createLabel": "Create a new stock position"
+    },
+    "id": "ID",
+    "name": "Name",
+    "description": "Description",
+    "actions": {
+      "save": {
+        "success": "The stock position was successfully saved. ",
+        "error": "An error occurred saving the stock position."
+      },
+      "update": {
+        "success": "The stock position was successfully updated.",
+        "error": "An error occurred updating the stock position."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unitOfMeasure": {
+    "detail": {
+      "title": "Unit of Measure"
+    },
+    "home": {
+      "title": "Unit of Measures",
+      "search": "Search for Unit of Measure",
+      "createLabel": "Create a new Unit of Measure",
+      "createConversionLabel": "Add conversion to Unit of Measure",
+      "updateConversionLabel": "Update conversion of Unit of Measure"
+    },
+    "id": "ID",
+    "name": "Name",
+    "abbreviation": "Abbreviation",
+    "allowsDecimal": "Allows Decimal",
+    "uomEquivalent": "UOM Equivalent",
+    "actions": {
+      "save": {
+        "success": "The unit of measure was successfully saved. ",
+        "error": "An error occurred saving the unit of measure."
+      },
+      "update": {
+        "success": "The unit of measure was successfully updated.",
+        "error": "An error occurred updating the unit of measure."
+      }
+    }
+  }
+}

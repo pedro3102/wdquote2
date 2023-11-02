@@ -1,0 +1,25 @@
+{
+  "language": {
+    "detail": {
+      "title": "Language"
+    },
+    "home": {
+      "title": "Languages",
+      "search": "Search for Language",
+      "createLabel": "Create a new Language"
+    },
+    "id": "ID",
+    "code": "Code",
+    "name": "Name",
+    "actions": {
+      "save": {
+        "success": "The language was successfully saved. ",
+        "error": "An error occurred saving the language."
+      },
+      "update": {
+        "success": "The language was successfully updated.",
+        "error": "An error occurred updating the language."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "systemModel": {
+    "detail": {
+      "title": "System Model"
+    },
+    "home": {
+      "title": "System Models",
+      "search": "Search for a system model",
+      "createLabel": "Create a new system model"
+    },
+    "id": "ID",
+    "name": "Name",
+    "description": "Description",
+    "picture": "Picture",
+    "system": "System",
+    "actions": {
+      "save": {
+        "success": "The system model was successfully saved. ",
+        "error": "An error occurred saving the system model."
+      },
+      "update": {
+        "success": "The system model was successfully updated.",
+        "error": "An error occurred updating the system model."
+      }
+    }
+  }
+}

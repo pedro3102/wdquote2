@@ -1,6 +1,6 @@
 {
   "global": {
-    "title": "Wdquote2",
+    "title": "Wd-quote",
     "browsehappy": "Está usando un navegador <strong>no actualizado</strong>. Por favor, <a href=\"http://browsehappy.com/?locale=es\">actualice su navegador</a> para mejorar su experiencia.",
     "menu": {
       "home": "Inicio",
@@ -94,18 +94,31 @@
       "back": "Volver",
       "cancel": "Cancelar",
       "delete": "Eliminar",
+      "add": "Adicionar",
       "edit": "Editar",
       "open": "Abrir",
       "save": "Guardar",
+      "confirm": "Confirmar",
       "view": "Vista",
-      "show": "Show { otherEntity }"
+      "show": "Show { otherEntity }",
+      "yesUppercase": "SI",
+      "noUppercase": "NO",
+      "changeStatus": {
+        "header": "Cambiar el estado",
+        "message": "Cambiar el estado de activo para {user}",
+        "success": "Operación exitosa",
+        "cancel": "Operation cancelada"
+      }
     },
     "detail": {
       "field": "Campo",
       "value": "Valor"
     },
     "delete": {
-      "title": "Confirmar operación de borrado"
+      "title": "Confirmar operación de borrado",
+      "success": "Operación de borrado satifactoria.",
+      "error": "Error en Operación de borrado",
+      "question": "Usted desea eliminar a: {entity}?"
     },
     "validation": {
       "required": "Este campo es obligatorio.",
@@ -113,11 +126,13 @@
       "maxlength": "Este campo no puede superar más de { max } caracteres.",
       "min": "Este campo debe ser mayor que { min }.",
       "max": "Este campo no puede ser mayor que { max }.",
+      "positive": "Este campo debe ser mayor que 0.",
       "minbytes": "Este campo debe tener como mínimo { min } bytes.",
       "maxbytes": "Este campo no puede tener más de { max } bytes.",
       "pattern": "Este campo debe seguir el patrón { pattern }.",
       "number": "Este campo debe ser un número.",
-      "datetimelocal": "Este campo debe ser una fecha y hora."
+      "datetimelocal": "Este campo debe ser una fecha y hora.",
+      "email": "El email no es válido."
     },
     "filters": {
       "set": "Following filters are set",
@@ -138,9 +153,42 @@
     "idinvalid": "ID inválido",
     "idnotfound": "ID no encontrado",
     "file": {
+      "invalidForm": "Algunos datos no son válidos, verifique la información y vuelva a intentarlo.",
       "could.not.extract": "No se pudo extraer el fichero",
       "not.image": "Se esperaba que el fichero fuera una imagen pero se encontro \"{ fileType }\""
+    },
+    "forbidden": {
+      "breadcrumb": "403 Error Page",
+      "title": "Oops! Acceso no Autorizado.",
+      "description": "Usted no tiene acceso a esta página."
+    },
+    "notFound": {
+      "breadcrumb": "404 Error Page",
+      "title": "Oops! Página no encontrada.",
+      "description": "No encontramos la página que usted busca."
     }
   },
-  "footer": "Pie de página"
+  "footer": "Pie de página",
+  "info": {
+    "noInformation": "No se encontró información",
+    "maxlengthTooltip": "Solo {length} caracteres permitidos"
+  },
+  "components": {
+    "dt": {
+      "exportCSV": "Exportar a  CSV",
+      "maximizable": "Maximizar Tabla",
+      "restartFilter": "Borrar Filtrado",
+      "searchBy": "Buscar por {field}",
+      "selectFilterPlaceholder": "Seleccione uno",
+      "multiSelectFilterPlaceholder": "Seleccione",
+      "editOneRow": "Solo puede editar una fila a la vez.",
+      "addOneRow": "No puede adicionar mientras este editando."
+    },
+    "toast": {
+      "success": "Éxito",
+      "info": "Info",
+      "warn": "Aviso",
+      "error": "Error"
+    }
+  }
 }

@@ -1,14 +1,27 @@
-import { decimal, helpers, required, sameAs, minLength, maxLength, minValue, maxValue, numeric } from '@vuelidate/validators';
+import { useI18n } from 'vue-i18n'
+import { computed, reactive, ref } from 'vue'
 
 export const useValidation = () => {
+  const { t } = useI18n()
+  const customErrorText = ref('')
+  const rules = reactive<object>({})
+  const errorText = computed(() => {
+    if (rules?.required?.$invalid) return t('entity.validation.required')
+    else if (customErrorText.value) return customErrorText.value
+    else if (rules?.minLength?.$invalid) return t('entity.validation.minlength', { min: rules?.minLength?.$params?.min })
+    else if (rules?.maxlength?.$invalid) return t('entity.validation.maxlength', { min: rules?.maxlength?.$params?.max })
+    else if (rules?.minValue?.$invalid) return t('entity.validation.min', { min: rules?.minValue?.$params?.min })
+    else if (rules?.maxValue?.$invalid) return t('entity.validation.max', { max: rules?.maxValue?.$params?.max })
+    else if (rules?.email?.$invalid) return t('entity.validation.email')
+    else if (rules?.mobile?.$invalid) return t('entity.validation.mobile')
+    else if (rules?.sameAs?.$invalid) return t('entity.validation.sameAs')
+    else if (rules?.username?.$invalid) return t('entity.validation.username')
+    else return
+  })
+
   return {
-    required: (message: string) => helpers.withMessage(message, required),
-    decimal: (message: string) => helpers.withMessage(message, decimal),
-    numeric: (message: string) => helpers.withMessage(message, numeric),
-    sameAs: (message: string, ...args: Parameters<typeof sameAs>) => helpers.withMessage(message, sameAs(...args)),
-    minLength: (message: string, ...args: Parameters<typeof minLength>) => helpers.withMessage(message, minLength(...args)),
-    maxLength: (message: string, ...args: Parameters<typeof maxLength>) => helpers.withMessage(message, maxLength(...args)),
-    minValue: (message: string, ...args: Parameters<typeof minValue>) => helpers.withMessage(message, minValue(...args)),
-    maxValue: (message: string, ...args: Parameters<typeof maxValue>) => helpers.withMessage(message, maxValue(...args)),
-  };
-};
+    errorText,
+    customErrorText,
+    rules,
+  }
+}

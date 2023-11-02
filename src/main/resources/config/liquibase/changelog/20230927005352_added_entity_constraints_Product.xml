@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Product.
+    -->
+    <changeSet id="20230927005352-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="uom_id"
+                                 baseTableName="product"
+                                 constraintName="fk_product__uom_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unit_of_measure"/>
+
+        <addForeignKeyConstraint baseColumnNames="uom_weight_id"
+                                 baseTableName="product"
+                                 constraintName="fk_product__uom_weight_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unit_of_measure"/>
+
+        <addForeignKeyConstraint baseColumnNames="category_id"
+                                 baseTableName="product"
+                                 constraintName="fk_product__category_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="product_category"
+                                 onDelete="CASCADE"/>
+
+        <addForeignKeyConstraint baseColumnNames="product_id"
+                                 baseTableName="rel_product__system_model"
+                                 constraintName="fk_rel_product__system_model__product_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="product"/>
+
+        <addForeignKeyConstraint baseColumnNames="system_model_id"
+                                 baseTableName="rel_product__system_model"
+                                 constraintName="fk_rel_product__system_model__system_model_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="system_model"/>
+    </changeSet>
+</databaseChangeLog>

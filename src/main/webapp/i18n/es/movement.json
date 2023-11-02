@@ -1,0 +1,44 @@
+{
+  "movement": {
+    "detail": {
+      "title": "Movimiento"
+    },
+    "home": {
+      "title": "Movimientos",
+      "search": "Filtrar por Movimiento",
+      "createLabel": "Crear un nuevo Movimiento",
+      "createDetailLabel": "Adicionar detalle al Movimiento",
+      "updateDetailLabel": "Actualizar detalle del Movimiento"
+    },
+    "id": "ID",
+    "no": "No.",
+    "reference": "Referencia",
+    "date": "Fecha",
+    "canceledDate": "Fecha Cancelado",
+    "movementType": "Tipo Movimiento",
+    "location": "Ubicación",
+    "counterpart": "Contraparte",
+    "note": "Nota",
+    "actions": {
+      "save": {
+        "success": "El movimiento fue salvado exitosamente.",
+        "error": "Ocurrió un error salvando el movimiento."
+      },
+      "update": {
+        "success": "El movimiento fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el movimiento."
+      },
+      "confirm": {
+        "title": "Confirmar",
+        "question": "Confirmar el Movimiento '{movement}'",
+        "success": "El Movimiento fue confirmado con éxito.",
+        "error": "Se ha producido un error al confirmar el Movimiento."
+      },
+      "change": {
+        "movementType": "¿Si cambia el Tipo de Movimiento se eliminaran los detalles. Desea proceder?",
+        "location": "¿Si cambia Ubicación del movimiento se eliminaran los detalles. Desea proceder?",
+        "error": "An error occurred while deleting the details."
+      }
+    }
+  }
+}

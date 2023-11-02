@@ -1,0 +1,34 @@
+{
+  "user": {
+    "detail": {
+      "title": "User"
+    },
+    "home": {
+      "title": "Manage Users",
+      "search": "Search for User",
+      "createLabel": "Create a new User"
+    },
+    "id": "ID",
+    "active": "Active",
+    "user": "User",
+    "login": "Username/Login",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "activated": "Activated",
+    "email": "Personal Email",
+    "mobile": "Personal Mobile",
+    "langKey": "Language",
+    "authorities": "Authorities",
+    "actions": {
+      "save": {
+        "success": "The user was successfully saved. ",
+        "error": "An error occurred saving the user."
+      },
+      "update": {
+        "success": "The user was successfully updated.",
+        "error": "An error occurred updating the user.",
+        "invalid": "Invalid form data, some fields contain errors."
+      }
+    }
+  }
+}

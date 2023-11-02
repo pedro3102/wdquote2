@@ -1,0 +1,25 @@
+{
+  "taxAreaCode": {
+    "detail": {
+      "title": "Tax Area Code"
+    },
+    "home": {
+      "title": "Tax Area Codes",
+      "search": "Search for Tax Area Code",
+      "createLabel": "Create a new Tax Area Code"
+    },
+    "id": "ID",
+    "code": "Code",
+    "name": "Name",
+    "actions": {
+      "save": {
+        "success": "The tax area code was successfully saved. ",
+        "error": "An error occurred saving the tax area code."
+      },
+      "update": {
+        "success": "The tax area code was successfully updated.",
+        "error": "An error occurred updating the tax area code."
+      }
+    }
+  }
+}

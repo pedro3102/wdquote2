@@ -1,6 +1,6 @@
 {
   "global": {
-    "title": "Wdquote2",
+    "title": "Wd-quote",
     "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
     "menu": {
       "home": "Home",
@@ -94,31 +94,46 @@
       "back": "Back",
       "cancel": "Cancel",
       "delete": "Delete",
+      "add": "Add",
       "edit": "Edit",
       "open": "Open",
       "save": "Save",
+      "confirm": "Confirm",
       "view": "View",
-      "show": "Show { otherEntity }"
+      "show": "Show { otherEntity }",
+      "yesUppercase": "YES",
+      "noUppercase": "NO",
+      "changeStatus": {
+        "header": "Change Status",
+        "message": "Change active status for {user}",
+        "success": "Success operation",
+        "cancel": "Operation was cancel"
+      }
     },
     "detail": {
       "field": "Field",
       "value": "Value"
     },
     "delete": {
-      "title": "Confirm delete operation"
+      "title": "Confirm delete operation",
+      "success": "Success delete operation.",
+      "error": "Delete operation Error.",
+      "question": "Do you want to delete: {entity}?"
     },
     "validation": {
       "required": "This field is required.",
       "minlength": "This field is required to be at least { min } characters.",
       "maxlength": "This field cannot be longer than { max } characters.",
       "min": "This field should be at least { min }.",
+      "positive": "This field should be greater than 0.",
       "max": "This field cannot be more than { max }.",
       "minbytes": "This field should be at least { min } bytes.",
       "maxbytes": "This field cannot be more than { max } bytes.",
       "pattern": "This field should follow pattern for { pattern }.",
       "number": "This field should be a number.",
       "datetimelocal": "This field should be a date and time.",
-      "patternLogin": "This field can only contain letters, digits and e-mail addresses."
+      "patternLogin": "This field can only contain letters, digits and e-mail addresses.",
+      "email": "The Email address is not valid."
     },
     "filters": {
       "set": "Following filters are set",
@@ -138,10 +153,43 @@
     "idnull": "Invalid ID",
     "idinvalid": "Invalid ID",
     "idnotfound": "ID cannot be found",
+    "invalidForm": "Invalid data, please check the information and try again.",
     "file": {
       "could.not.extract": "Could not extract file",
       "not.image": "File was expected to be an image but was found to be \"{ fileType }\""
+    },
+    "forbidden": {
+      "breadcrumb": "403 Error Page",
+      "title": "Oops! Access not Granted.",
+      "description": "You do not have access to this page. If you think it is an error contact your Administrator, or you may"
+    },
+    "notFound": {
+      "breadcrumb": "404 Error Page",
+      "title": "Oops! Page not found.",
+      "description": "We could not find the page you were looking for. If you think it is an error contact your Administrator, or you may"
     }
   },
-  "footer": "This is your footer"
+  "footer": "This is your footer",
+  "info": {
+    "noInformation": "No information found.",
+    "maxlengthTooltip": "Only {length} characters alowed"
+  },
+  "components": {
+    "dt": {
+      "exportCSV": "Export  CSV",
+      "maximizable": "Maximize Table",
+      "restartFilter": "Remove Filters",
+      "searchBy": "Search by {field}",
+      "selectFilterPlaceholder": "Select One",
+      "multiSelectFilterPlaceholder": "Any",
+      "editOneRow": "You can only edit one row at a time.",
+      "addOneRow": "You cannot add while editing."
+    },
+    "toast": {
+      "success": "Success",
+      "info": "Info",
+      "warn": "Warning",
+      "error": "Error"
+    }
+  }
 }

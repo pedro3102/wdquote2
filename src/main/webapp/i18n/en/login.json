@@ -1,11 +1,15 @@
 {
   "login": {
     "title": "Sign in",
+    "subTitle": "Sign in to continue",
     "form": {
+      "login": "Login",
+      "login.placeholder": "Your login",
       "password": "Password",
       "password.placeholder": "Your password",
       "rememberme": "Remember me",
-      "button": "Sign in"
+      "button": "Sign in",
+      "rememberMe": "Remember me"
     },
     "messages": {
       "error": {

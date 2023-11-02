@@ -1,0 +1,25 @@
+{
+  "system": {
+    "detail": {
+      "title": "Sistema"
+    },
+    "home": {
+      "title": "Administrar Sistemas",
+      "search": "Filtrar Sistemas",
+      "createLabel": "Crear un nuevo Sistema"
+    },
+    "id": "ID",
+    "name": "Nombre",
+    "picture": "Imagen",
+    "actions": {
+      "save": {
+        "success": "El sistema fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el sistema."
+      },
+      "update": {
+        "success": "El sistema fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando el sistema."
+      }
+    }
+  }
+}

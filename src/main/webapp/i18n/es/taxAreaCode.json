@@ -1,0 +1,25 @@
+{
+  "taxAreaCode": {
+    "detail": {
+      "title": "Código de Zona Fiscal"
+    },
+    "home": {
+      "title": "Administrar Códigos de Zona Fiscal",
+      "search": "Filtrar Códigos de Zona Fiscal",
+      "createLabel": "Crear un nuevo código de zona fiscal"
+    },
+    "id": "ID",
+    "code": "Código",
+    "name": "Nombre",
+    "actions": {
+      "save": {
+        "success": "El código de zona fiscal fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el código de zona fiscal."
+      },
+      "update": {
+        "success": "El código de zona fiscal fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el código de zona fiscal."
+      }
+    }
+  }
+}

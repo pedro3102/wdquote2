@@ -1,0 +1,27 @@
+{
+  "systemModel": {
+    "detail": {
+      "title": "Modelo de Sistema"
+    },
+    "home": {
+      "title": "Administrar Modelo de Sistemas",
+      "search": "Filtrar Modelo de Sistemas",
+      "createLabel": "Crear un nuevo Modelo de Sistema"
+    },
+    "id": "ID",
+    "name": "Nombre",
+    "description": "Descripción",
+    "picture": "Imagen",
+    "system": "Sistema",
+    "actions": {
+      "save": {
+        "success": "El modelo de sistema fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el modelo de sistema."
+      },
+      "update": {
+        "success": "El modelo de sistema fue modificada exitosamente.",
+        "error": "Ocurrió un error modificando el modelo de sistema."
+      }
+    }
+  }
+}

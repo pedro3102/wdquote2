@@ -1,0 +1,28 @@
+{
+  "movementType": {
+    "detail": {
+      "title": "Movement Type"
+    },
+    "home": {
+      "title": "Movement Types",
+      "search": "Search for Movement Type",
+      "createLabel": "Create a new Movement Type"
+    },
+    "id": "ID",
+    "code": "Code",
+    "name": "Name",
+    "operationType": "Type",
+    "counterpart": "Counter Part",
+    "oppositeMovementType": "Opposite",
+    "actions": {
+      "save": {
+        "success": "The Movement Type was successfully saved. ",
+        "error": "An error occurred saving the Movement Type."
+      },
+      "update": {
+        "success": "The Movement Type was successfully updated.",
+        "error": "An error occurred updating the Movement Type."
+      }
+    }
+  }
+}

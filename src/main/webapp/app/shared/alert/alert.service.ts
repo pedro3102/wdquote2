@@ -1,9 +1,10 @@
-import type { BvToast } from 'bootstrap-vue';
+// import type { BvToast } from 'bootstrap-vue';
+interface BvToast {}
 import { getCurrentInstance } from 'vue';
 import { Composer, useI18n } from 'vue-i18n';
 
 export const useAlertService = () => {
-  const bvToast = getCurrentInstance().root.proxy['_bv__toast'];
+  const bvToast = getCurrentInstance().root.proxy['_bv__toast'] || {};
   if (!bvToast) {
     throw new Error('BootstrapVue toast component was not found');
   }

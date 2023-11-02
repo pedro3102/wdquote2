@@ -1,0 +1,34 @@
+{
+  "user": {
+    "detail": {
+      "title": "Usuario"
+    },
+    "home": {
+      "title": "Administrar Usuarios",
+      "search": "Filtrar usuarios",
+      "createLabel": "Crear un nuevo Usuario"
+    },
+    "id": "ID",
+    "active": "Activo",
+    "user": "User",
+    "login": "Usuario",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "activated": "Activado",
+    "email": "Correo Electrónico",
+    "mobile": "Celular",
+    "langKey": "Idioma",
+    "authorities": "Permisos",
+    "actions": {
+      "save": {
+        "success": "El usuario fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el usuario."
+      },
+      "update": {
+        "success": "El usuario fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el usuario.",
+        "invalid": "Datos de formulario invalido, algunos campos contienen errores."
+      }
+    }
+  }
+}

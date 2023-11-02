@@ -1,0 +1,34 @@
+{
+  "customer": {
+    "detail": {
+      "title": "Cliente",
+      "childTitle": "{customer} Contactos"
+    },
+    "home": {
+      "title": "Administrar Clientes",
+      "search": "Filtrar Clientes",
+      "createLabel": "Crear un nuevo cliente"
+    },
+    "id": "ID",
+    "code": "Código",
+    "name": "Nombre",
+    "address": "Dirección",
+    "taxLiable": "Obligación tributaria",
+    "taxExemptionCode": "Código de exención fiscal",
+    "paymentTerms": "Términos de Pago",
+    "creditLimit": "Límite de Crédito",
+    "blocked": "Bloqueado",
+    "deliveryZone": "Zona de Entrega",
+    "taxAreaCode": "Códigos de Zona Fiscal",
+    "actions": {
+      "save": {
+        "success": "El cliente fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el cliente."
+      },
+      "update": {
+        "success": "El cliente fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el cliente."
+      }
+    }
+  }
+}

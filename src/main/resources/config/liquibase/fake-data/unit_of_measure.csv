@@ -1,0 +1,11 @@
+id;name;abbreviation;allows_decimal;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;Auto;navigating;true;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;Division Wooden;next-gener;false;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;Pound;Sum Accoun;true;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;transmitter Liechtenstein deposit;Sausages b;true;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;conglomeration;project fi;false;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;Handcrafted;Designer;true;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+7;Forges;Internatio;false;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+8;Licensed Rustic;distribute;false;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+9;Awesome Berkshire Towels;transmitti;true;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+10;leading-edge;East trans;false;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

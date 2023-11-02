@@ -1,4 +1,4 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
+require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
@@ -8,12 +8,14 @@ module.exports = {
   extends: ['plugin:vue/essential', '@vue/eslint-config-typescript/recommended', '@vue/eslint-config-prettier'],
   parserOptions: {
     ecmaVersion: 2020,
-    project: ['./tsconfig.json', './tsconfig.test.json'],
+    project: ['./tsconfig.json', './src/test/javascript/spec/tsconfig.json', './src/test/javascript/cypress/tsconfig.json'],
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'vue/multi-word-component-names': 'off',
+    'vue/no-multiple-template-root': 'off',
+    'vue/no-v-model-argument': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -22,4 +24,4 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
   },
   ignorePatterns: ['target/'],
-};
+}

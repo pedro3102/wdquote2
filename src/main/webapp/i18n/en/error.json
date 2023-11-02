@@ -8,6 +8,20 @@
       "405": "The HTTP verb you used is not supported for this URL.",
       "500": "Internal server error."
     },
+    "axios": {
+      "400Title": "Bad Request",
+      "400Description": "Server cannot or will not process the request.",
+      "401Title": "Unauthorized",
+      "401Description": "No valid authentication credentials for the requested resource.",
+      "403Title": "Forbidden",
+      "403Description": "You do not have authorization to access these resources.",
+      "500Title": "Internal Server Error",
+      "500Description": "The server encountered an unexpected condition that prevented it from fulfilling the request.",
+      "503Title": "Service Unavailable",
+      "503Description": "The server is not ready to handle the request.",
+      "504Title": "Gateway Timeout",
+      "504Description": "The server did not get a response in time."
+    },
     "concurrencyFailure": "Another user modified this data at the same time as you. Your changes were rejected.",
     "validation": "Validation error on the server."
   }

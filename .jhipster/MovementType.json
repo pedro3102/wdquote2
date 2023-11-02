@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20230927005403",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "movement_type",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "3"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "50"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "OperationType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "IN,OUT"
+    },
+    {
+      "fieldName": "counterpart",
+      "fieldType": "OperationCounterpart",
+      "fieldValues": "VENDOR,LOCATION,CUSTOMER"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "MovementType",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

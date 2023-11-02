@@ -15,7 +15,7 @@
 
 spring:
   application:
-    name: wdquote2
+    name: wd-quote
   # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
   liquibase:
     contexts: test
@@ -30,13 +30,13 @@ spring:
     basename: i18n/messages
   task:
     execution:
-      thread-name-prefix: wdquote-2-task-
+      thread-name-prefix: wd-quote-task-
       pool:
         core-size: 1
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: wdquote-2-scheduling-
+      thread-name-prefix: wd-quote-scheduling-
       pool:
         size: 20
   thymeleaf:
@@ -53,9 +53,9 @@ server:
 # ===================================================================
 jhipster:
   clientApp:
-    name: 'wdquote2App'
+    name: 'wdQuoteApp'
   mail:
-    from: wdquote2@localhost.com
+    from: wd-quote@localhost.com
     base-url: http://127.0.0.1:8080
   logging:
     # To test json console appender
@@ -69,7 +69,7 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-        base64-secret: MTk2M2E5OTU5Zjg4MGM5OWNmNGIzNmZlNWMzZmQyZDEwYjI4OGZiYWM4MjIxYjA5OTIwZDM2Nzk0ZWU5NTgxMDdhNGU5YjcwMmM1OTBmMTBmOTRmY2ZlNzU3ZmU4ZmRjOTcwNWE4MzViODRjNWE3MjEwYzYzZmY2YzllYzJhOTU=
+        base64-secret: OTcyOGViZDlhNDlkMGE5ZDg0NzY1MWE1NmNkZmJlMjYxNDY2OGZhMjczMmU5YTg5NTQ0YjdiODQ2Yjg4ZmZjOGFiZmIxN2NhZGViNzYxNWQ1Y2UyMmUwZDUzODE1ZWQ0MTAwNjRiZDQwY2E2MmNhMTk0OGQ2ODc4MjQzMTI4ODA=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 86400

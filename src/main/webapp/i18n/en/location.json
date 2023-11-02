@@ -1,0 +1,28 @@
+{
+  "location": {
+    "detail": {
+      "title": "Location"
+    },
+    "home": {
+      "title": "Locations",
+      "search": "Search for Location",
+      "createLabel": "Create a new Location"
+    },
+    "id": "ID",
+    "code": "Code",
+    "name": "Name",
+    "address": "Address",
+    "isWarehouse": "Is Warehouse",
+    "locationType": "Location",
+    "actions": {
+      "save": {
+        "success": "The location was successfully saved. ",
+        "error": "An error occurred saving the location."
+      },
+      "update": {
+        "success": "The location was successfully updated.",
+        "error": "An error occurred updating the location."
+      }
+    }
+  }
+}

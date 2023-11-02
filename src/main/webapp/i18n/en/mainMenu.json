@@ -1,0 +1,39 @@
+{
+  "mainMenu": {
+    "dashboard": {
+      "menu": "Dashboard"
+    },
+    "home": {
+      "menu": "Home"
+    },
+    "global-catalogs": {
+      "menu": "Catalogs",
+      "language": "Languages",
+      "vendor": "Vendors",
+      "location": "Locations",
+      "deliveryZone": "Delivery Zones",
+      "taxAreaCode": "Tax Area Code",
+      "unitOfMeasure": "Units of Measure",
+      "productCategory": "Product Categories",
+      "system": "Systems",
+      "systemModel": "System Models",
+      "customer": "Customers",
+      "customerContact": "Customer Contacts"
+    },
+    "admin": {
+      "menu": "Administration",
+      "user": "Users"
+    },
+    "inventory": {
+      "menu": "Inventory",
+      "products": "Products",
+      "movementTypes": "Movement Types",
+      "stockPosition": "Stock Positions",
+      "inventory": "Inventories",
+      "movements": "Movements"
+    },
+    "filter": {
+      "placeholder": "Filter menu"
+    }
+  }
+}

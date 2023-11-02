@@ -1,0 +1,25 @@
+{
+  "language": {
+    "detail": {
+      "title": "Idioma"
+    },
+    "home": {
+      "title": "Administrar Idiomas",
+      "search": "Filtrar Idiomas",
+      "createLabel": "Crear un nuevo idioma"
+    },
+    "id": "ID",
+    "code": "Código",
+    "name": "Nombre",
+    "actions": {
+      "save": {
+        "success": "El idioma fue guardado exitosamente.",
+        "error": "Ocurrió un error salvando el idioma."
+      },
+      "update": {
+        "success": "El idioma fue modificado exitosamente.",
+        "error": "Ocurrió un error modificando el idioma."
+      }
+    }
+  }
+}

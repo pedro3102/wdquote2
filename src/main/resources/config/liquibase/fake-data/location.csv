@@ -1,0 +1,11 @@
+id;code;name;address;is_warehouse;location_type;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;L001;the program Ghana;magnetic;true;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;L002;Wisconsin Chief Sports;cross-platform;false;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;L003;Savings parse;Rustic;false;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;L004;pink;SCSI;true;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;L005;up Licensed Forward;Accounts Venezuela Plastic;false;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;L006;Illinois Fresh;Designer Austria;true;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+7;L007;infomediaries Guadeloupe ;Missouri JBOD;false;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+8;L008;Licensed Forward;connect Toys Assurance;true;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+9;L009;synthesize CSS withdrawal;copying Tuna intranet;false;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+10;L010;Parks;utilisation Gardens;false;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false

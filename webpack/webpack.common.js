@@ -36,7 +36,7 @@ module.exports = async (env, options) => {
       resolve: {
         extensions: ['.ts', '.js', '.vue', '.json'],
         alias: {
-          vue$: '@vue/compat/dist/vue.esm-bundler.js',
+          /*vue$: '@vue/compat/dist/vue.esm-bundler.js',*/
           '@': resolve('src/main/webapp/app'),
         },
       },
@@ -82,11 +82,7 @@ module.exports = async (env, options) => {
             loader: 'vue-loader',
             options: {
               ...vueLoaderConfig(!development),
-              compilerOptions: {
-                compatConfig: {
-                  MODE: 2,
-                },
-              },
+              compilerOptions: {},
             },
           },
           {
@@ -136,10 +132,6 @@ module.exports = async (env, options) => {
             { from: './src/main/webapp/swagger-ui/', to: 'swagger-ui/' },
             { from: './src/main/webapp/content/', to: 'content/' },
             { from: './src/main/webapp/favicon.ico', to: 'favicon.ico' },
-            {
-              from: './src/main/webapp/manifest.webapp',
-              to: 'manifest.webapp',
-            },
             // jhipster-needle-add-assets-to-webpack - JHipster will add/remove third-party resources in this array
             { from: './src/main/webapp/robots.txt', to: 'robots.txt' },
           ],
@@ -155,7 +147,7 @@ module.exports = async (env, options) => {
         }),
       ],
     },
-    await require(`./webpack.${development ? 'dev' : 'prod'}`)(env, options),
+    await require(`./webpack.${development ? 'dev' : 'prod'}`)(env, options)
     // jhipster-needle-add-webpack-config - JHipster will add custom config
   );
 };

@@ -1,0 +1,31 @@
+{
+  "customerContact": {
+    "detail": {
+      "title": "Customer Contact"
+    },
+    "home": {
+      "title": "Customer Contacts",
+      "search": "Search for Customer Contact",
+      "createLabel": "Create a new Customer Contact"
+    },
+    "id": "ID",
+    "code": "Code",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "salespersonCode": "Salesperson Code",
+    "isDefaultContact": "Default Contact",
+    "customer": "Customer",
+    "language": "Language",
+    "actions": {
+      "save": {
+        "success": "The customer contact was successfully saved. ",
+        "error": "An error occurred saving the customer contact."
+      },
+      "update": {
+        "success": "The customer contact was successfully updated.",
+        "error": "An error occurred updating the customer contact."
+      }
+    }
+  }
+}

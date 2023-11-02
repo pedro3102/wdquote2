@@ -1,0 +1,11 @@
+id;code;name;address;tax_liable;tax_exemption_code;payment_terms;credit_limit;blocked;delivery_zone_id;tax_area_code_id;created_by;created_date;last_modified_by;last_modified_date;deleted
+1;C001;Market;program payment User-friendly;false;SQL;empower auxiliary experie;19477;true;1;1;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+2;C002;Ball full-range;mobile Direct Villages;true;partnerships Uzbekistan i;Ergonomic Generic bluetoo;28795;true;2;2;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+3;C003;quantifying transmit;Compatible Small;true;Peso;synthesize Lilangeni init;20939;true;3;3;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+4;C004;invoice Tuna Pine;Rhode Handcrafted;true;Rustic Re-engineered;hacking;18178;true;4;4;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+5;C005;ivory deposit Horizontal;Loan Handcrafted Architect;false;Rubber Centralized techno;Sausages;4162;false;5;5;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+6;C006;up gold;Fall;false;Gourde Electronics bypass;virtual Account silver;79481;true;6;6;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+7;C007;Ramp Cambridgeshire;New neural functionalities;false;Chief system-worthy;Global scale Jewelery;37838;true;7;7;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+8;C008;user indexing monitor;salmon Executive deliverables;true;backing orange multi-byte;Loaf microchip;84710;true;8;8;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+9;C009;Investment needs-based Helena;Jordan Metal online;false;up;online deposit Specialist;56484;true;9;9;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
+10;C010;system payment Oklahoma;Washington;false;SSL;parsing payment;26590;true;10;10;admin;CURRENT_TIMESTAMP;admin;CURRENT_TIMESTAMP;false
